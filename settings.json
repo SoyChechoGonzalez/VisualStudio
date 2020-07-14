@@ -1,14 +1,19 @@
 {
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "workbench.iconTheme": "vscode-icons",
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "workbench.colorTheme": "Expressive Theme",
-    "workbench.colorCustomizations": 
-    {
-        "terminal.foreground": "#04f524",
-        "terminal.background": "#212121"
-    },
-    "editor.wordWrap": "on",
-    "editor.fontSize": 20
+  "atomKeymap.promptV3Features": true,
+  "workbench.settings.editor": "json",
+  "editor.fontSize": 24,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "all",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "workbench.colorTheme": "Expressive Theme",
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#04f524",
+    "terminal.background": "#212121"
+  }
 }
