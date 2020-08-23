@@ -14,12 +14,11 @@
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "One Dark Pro", //Tema
   "workbench.iconTheme": "vscode-icons", //Iconos
-  "workbench.preferredDarkColorTheme": "Expressive Theme", //Tema
   "workbench.colorCustomizations": {
     "tab.activeBackground": "#782310", //Pestañas de archivo
     "activityBar.background": "#242310", //Barra Latereal
     "sideBar.background": "#0F0F0F", //Explorador de archivos
-    "liveServer.settings.donotVerifyTags": true
+    "extension.liveServer.goOnline": true
   },
   //Ventanas
   "window.titleSeparator": " // ", //Separador del titulo
@@ -28,6 +27,7 @@
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe", //Terminal
   "terminal.integrated.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace",
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorBlinking": true
+  "terminal.integrated.cursorBlinking": true,
+  "liveServer.settings.donotShowInfoMsg": true
 }
 // "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe"
