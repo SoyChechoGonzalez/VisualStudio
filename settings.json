@@ -1,18 +1,20 @@
 {
   //Editor de texto
-  "editor.fontSize": 16,
-  "editor.formatOnSave": true,
+  "editor.fontSize": 16, //Tamaño de la fuente
+  "editor.defaultFormatter": "esbenp.prettier-vscode", //Prettier
+  "editor.formatOnSave": true, //Prettier
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
+  "editor.rulers": [120],
   "editor.wordWrap": "on",
-  "editor.cursorBlinking": "expand",
+  "editor.cursorBlinking": "expand", //Efecto del cursor
   "editor.renderWhitespace": "all",
-  "editor.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace",
+  "editor.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace", //Fuente
   //Workbench
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "One Dark Pro", //Tema
   "workbench.iconTheme": "vscode-icons", //Iconos
-  "workbench.preferredDarkColorTheme": "Expressive Theme",
+  "workbench.preferredDarkColorTheme": "Expressive Theme", //Tema
   "workbench.colorCustomizations": {
     "tab.activeBackground": "#782310", //Pestañas de archivo
     "activityBar.background": "#242310", //Barra Latereal
@@ -20,12 +22,12 @@
     "liveServer.settings.donotVerifyTags": true
   },
   //Ventanas
-  "window.titleSeparator": " // ",
+  "window.titleSeparator": " // ", //Separador del titulo
 
   //Caracteristicas
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe", //Terminal
   "terminal.integrated.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true
-  // "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe"
 }
+// "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe"
