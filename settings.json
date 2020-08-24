@@ -28,6 +28,4 @@
   "terminal.integrated.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
-  "liveServer.settings.donotShowInfoMsg": true
 }
-// "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe"
