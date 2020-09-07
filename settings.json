@@ -4,34 +4,38 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode", //Prettier
   "editor.formatOnSave": true, //Prettier
   "editor.fontLigatures": true, //Ligaduras
-  "editor.tabSize": 2, //Espacios para un Tab
+  "editor.tabSize": 2, //Espacios por TAB
+  // "editor.rulers": [120],
   "editor.wordWrap": "on",
   "editor.cursorBlinking": "expand", //Efecto del cursor
-  "editor.renderWhitespace": "all", //Puntos entre los espacios
-  "editor.fontFamily": "'Cascadia Code', Consolas, Menlo, Monaco,  'Courier New', monospace", //Fuente
-  //WORKBENCH
-  "workbench.settings.editor": "json", //Tema
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace", //Fuente
+  //Workbench
+  "workbench.settings.editor": "json",
+  "workbench.colorTheme": "One Dark Pro", //Tema
   "workbench.iconTheme": "vscode-icons", //Iconos
-  "workbench.colorTheme": "One Dark Pro",
   "workbench.colorCustomizations": {
     "editor.background": "#0E0D0D", //Fondo del Editor
     "tab.activeBackground": "#782310", //Pestañas de archivo
+    "tab.activeBorder": "#018585",
+    "tab.activeForeground": "#00FFFF",
+    "tab.border": "#ff0000",
+    "tab.hoverForeground": "#00ff00",
+    "tab.unfocusedHoverBackground": "#0000ff",
+    "tab.hoverBackground": "#015223",
     "activityBar.background": "#242310", //Barra Latereal
     "activityBar.foreground": "#00FFFF",
-    "activityBarBadge.background": "#0077ffb6",
+    "activityBarBadge.background": "#0077ff",
     "activityBarBadge.foreground": "#000",
-    "sideBar.background": "#0F0F0F", //Explorador de archivos
-    "extension.liveServer.goOnline": true //Live Server
+    "sideBar.background": "#180c0c", //Explorador de archivos
+    "extension.liveServer.goOnline": true //Live Server,
   },
-  //VENTANAS
+  //Ventanas
   "window.titleSeparator": " // ", //Separador del titulo
 
   //Caracteristicas
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe", //Terminal
   "terminal.integrated.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace",
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorBlinking": true,
-  "window.zoomLevel": 0,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "liveServer.settings.donotVerifyTags": true
+  "terminal.integrated.cursorBlinking": true
 }
