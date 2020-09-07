@@ -3,24 +3,27 @@
   "editor.fontSize": 16, //Tamaño de la fuente
   "editor.defaultFormatter": "esbenp.prettier-vscode", //Prettier
   "editor.formatOnSave": true, //Prettier
-  "editor.fontLigatures": true,
-  "editor.tabSize": 2,
-  "editor.rulers": [120],
+  "editor.fontLigatures": true, //Ligaduras
+  "editor.tabSize": 2, //Espacios para un Tab
   "editor.wordWrap": "on",
   "editor.cursorBlinking": "expand", //Efecto del cursor
-  "editor.renderWhitespace": "all",
-  "editor.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace", //Fuente
-  //Workbench
-  "workbench.settings.editor": "json",
-  "workbench.colorTheme": "One Dark Pro", //Tema
+  "editor.renderWhitespace": "all", //Puntos entre los espacios
+  "editor.fontFamily": "'Cascadia Code', Consolas, Menlo, Monaco,  'Courier New', monospace", //Fuente
+  //WORKBENCH
+  "workbench.settings.editor": "json", //Tema
   "workbench.iconTheme": "vscode-icons", //Iconos
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.colorCustomizations": {
+    "editor.background": "#0E0D0D", //Fondo del Editor
     "tab.activeBackground": "#782310", //Pestañas de archivo
     "activityBar.background": "#242310", //Barra Latereal
+    "activityBar.foreground": "#00FFFF",
+    "activityBarBadge.background": "#0077ffb6",
+    "activityBarBadge.foreground": "#000",
     "sideBar.background": "#0F0F0F", //Explorador de archivos
-    "extension.liveServer.goOnline": true
+    "extension.liveServer.goOnline": true //Live Server
   },
-  //Ventanas
+  //VENTANAS
   "window.titleSeparator": " // ", //Separador del titulo
 
   //Caracteristicas
@@ -28,4 +31,7 @@
   "terminal.integrated.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
+  "window.zoomLevel": 0,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "liveServer.settings.donotVerifyTags": true
 }
