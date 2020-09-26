@@ -1,20 +1,34 @@
 {
   //Editor de texto
-  "editor.fontSize": 16, //Tamaño de la fuente
+  "editor.fontSize": 17, //Tamaño de la fuente
   "editor.defaultFormatter": "esbenp.prettier-vscode", //Prettier
   "editor.formatOnSave": true, //Prettier
   "editor.fontLigatures": true, //Ligaduras
   "editor.tabSize": 2, //Espacios por TAB
   // "editor.rulers": [120],
   "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "comments": "#890dd1"
+  },
+  "editor.colorDecorators": true,
+  "editor.stablePeek": true,
   "editor.cursorBlinking": "expand", //Efecto del cursor
+  "editor.cursorStyle": "line-thin",
   "editor.renderWhitespace": "all",
   "editor.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace", //Fuente
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   //Workbench
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "One Dark Pro", //Tema
   "workbench.iconTheme": "vscode-icons", //Iconos
   "workbench.colorCustomizations": {
+    "statusBar.foreground": "#fff",
+    "statusBar.background": "#00ffff",
+    "statusBarItem.remoteBackground": "#00ffff",
+    "statusBarItem.remoteForeground": "#000",
+    "statusBar.border": "#00ffff",
     "editor.background": "#0E0D0D", //Fondo del Editor
     "tab.activeBackground": "#782310", //Pestañas de archivo
     "tab.activeBorder": "#018585",
@@ -23,11 +37,27 @@
     "tab.hoverForeground": "#00ff00",
     "tab.unfocusedHoverBackground": "#0000ff",
     "tab.hoverBackground": "#015223",
+    // Estilos para Activity Bar
     "activityBar.background": "#242310", //Barra Latereal
     "activityBar.foreground": "#00FFFF",
-    "activityBarBadge.background": "#0077ff",
+    "activityBar.activeBackground": "#180c0c",
+    "activityBar.inactiveForeground": "#0886a58a",
+    "activityBar.activeBorder": "#00ffff",
+    "activityBar.activeFocusBorder": "#ff0000",
+    "activityBar.border": "#00ffff", //Borde de la activitybar
+    "activityBar.dropBorder": "#ff0000",
+    "activityBarBadge.background": "#fff",
     "activityBarBadge.foreground": "#000",
+    // Estilos para Sidebar
     "sideBar.background": "#180c0c", //Explorador de archivos
+    "sideBarTitle.foreground": "#00ffff",
+    "sideBarSectionHeader.border": "#00ffff",
+    "sideBar.border": "#00ffff",
+    "sideBarSectionHeader.background": "#0886a58a",
+    "sideBarSectionHeader.foreground": "#fff",
+    "sideBar.dropBackground": "#ff0000",
+    "sideBar.foreground": "#fff",
+    "scrollbarSlider.background": "#890dd1", //Scroll
     "extension.liveServer.goOnline": true //Live Server,
   },
   //Ventanas
@@ -37,5 +67,6 @@
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe", //Terminal
   "terminal.integrated.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace",
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorBlinking": true
+  "terminal.integrated.cursorBlinking": true,
+  "editor.multiCursorModifier": "ctrlCmd"
 }
