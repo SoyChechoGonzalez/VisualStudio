@@ -6,6 +6,7 @@
   "editor.fontLigatures": true, //Ligaduras
   "editor.tabSize": 2, //Espacios por TAB
   // "editor.rulers": [120],
+  // "editor.fontWeight": "350",
   "editor.wordWrap": "on",
   "editor.tokenColorCustomizations": {
     "comments": "#890dd1"
@@ -15,7 +16,7 @@
   "editor.cursorBlinking": "expand", //Efecto del cursor
   "editor.cursorStyle": "line-thin",
   "editor.renderWhitespace": "all",
-  "editor.fontFamily": "Cascadia code, Consolas, Menlo, Monaco,  'Courier New', monospace", //Fuente
+  "editor.fontFamily": "Cascadia Code PL Regular, Consolas, 'Courier New', monospace", //Fuente
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
